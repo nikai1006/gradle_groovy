@@ -39,7 +39,7 @@ println('---------------------------------------------------------')
 //6 闭包
 def c1 = {
     v ->
-        print v
+        println v
 }
 
 def c2 = {
@@ -57,5 +57,9 @@ def method2(Closure closure){
 method1(c1)
 method2 c2
 method1 {
-    c1
+    c1 'kaini'
+}
+
+method2 {
+    c1 'nikai'
 }
