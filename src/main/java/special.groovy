@@ -56,3 +56,6 @@ def method2(Closure closure){
 
 method1(c1)
 method2 c2
+method1 {
+    c1
+}
