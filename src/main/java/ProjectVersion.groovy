@@ -1,4 +1,4 @@
-class ProjectVersion {
+public class ProjectVersion {
     private int major
     private int minor
 
@@ -7,24 +7,19 @@ class ProjectVersion {
         this.minor = minor
     }
 
-    int getMajor() {
-        major
-    }
+//    int getMajor() {
+//        major
+//    }
 
     void setMajor(int major) {
         this.major = major
     }
 
-    int getMinor() {
-        minor
-    }
+//    int getMinor() {
+//        minor
+//    }
 
     void setMinor(int minor) {
         this.minor = minor
     }
 }
-
-ProjectVersion pv = new ProjectVersion(1, 2)
-println pv.major
-println pv.minor
-println pv.getMajor()
