@@ -49,6 +49,11 @@ def c2 = {
     println 'baby'
 }
 
+def c3 = {
+    name, age ->
+        println "name is ${name},age is ${age}"
+}
+
 def method1(Closure closure) {
     closure('param')
 }
@@ -70,6 +75,7 @@ println '-----------------------------------------------------'
 method2 {
     c1 'hello'
     c2 'girl'
+    c3 'nikai', 20
 }
 println "==========================================="
 c1('haha')
@@ -79,3 +85,6 @@ c2.call()
 c2('''call
 me
 ''')
+c3('nikai', 20)
+c3 'nikai', 20
+c3.call('nikai', 20)
