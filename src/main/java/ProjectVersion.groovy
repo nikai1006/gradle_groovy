@@ -1,4 +1,4 @@
-public class ProjectVersion {
+class ProjectVersion {
     private int major
     private int minor
 

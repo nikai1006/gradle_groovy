@@ -63,3 +63,16 @@ method1 {
 method2 {
     c1 'nikai'
 }
+println '-----------------------------------------------------'
+method2 {
+    c1 'hello'
+    c2 'girl'
+}
+println "==========================================="
+c1('haha')
+c1.call("xixi")
+c2()
+c2.call()
+c2('''call
+me
+''')
