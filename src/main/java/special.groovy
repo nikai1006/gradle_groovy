@@ -1,6 +1,9 @@
 //groovy 高效特性
 //1 可选的类型定义
 def version = 1
+def group = 'cn.net.nikai'
+version = 2
+group = 3
 
 //2 assert
 //assert version == 2
@@ -46,11 +49,11 @@ def c2 = {
     println 'baby'
 }
 
-def method1(Closure closure){
+def method1(Closure closure) {
     closure('param')
 }
 
-def method2(Closure closure){
+def method2(Closure closure) {
     closure()
 }
 
